@@ -1,4 +1,16 @@
-# Accessing/Finding DOM Elements
+## Accessing/Finding DOM Elements
+
+- `document` is a built in object in JS. We can access it properties using the dot notation. It has properties such as body, title e.t.c.
+- In addition to properties, DOM has methods such; `document.querySelector()`.
+
+
+```js
+document.body.innerHTML = "DOM is great"; // changes the innerHTML of the body.
+
+document.title = 'Good Job'; // Title of the webpage.
+```
+
+
 
 To access any element in an HTML page, we start by accessing the <i>document </i> object.
 
