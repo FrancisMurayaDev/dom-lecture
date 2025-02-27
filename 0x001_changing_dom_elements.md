@@ -107,3 +107,30 @@ console.log(title); // <h1 class="title" id="title">Hello, world</h1>
 title.id = "awesome-title";
 console.log(title); // <h1 class="title" id="awesome-title">Hello, world</h1>
 ```
+
+## Changing the styling of HTML elements
+
+We can use `element.style.property = "value"`.
+
+It is important to input the value in double quotes even if it is a number.
+
+```js
+const title = document.getElementById("title");
+title.style.border = "3px solid red";
+title.style.fontSize = "48px";
+title.style.borderRadius = "5px";
+```
+
+### Changing styling in JavaScript using CSS classes
+
+-  `element.classList.add()`: adds one or more class names to an element without removing the existing classes.
+
+-  `element.classList.remove()`: removes one or more classes from an element.
+
+- `element.classList.toggle()`: toggles the specified class, it is present, it is removed, if it is absent, it is added.
+
+- `element.classList.contains()`: returns true if an element contains the specified class(es), false otherwise.
+
+- `element.classList.replace()`: replaces an existing class with a new class.
+
+- `element.style.setProperty()`: sets a CSS property on an element (first parameter) and its value (second parameter).

@@ -23,3 +23,4 @@ btn.addEventListener("click", function () {
 
 
 ## Assignment: (Read on Event Propagation)
+ - bubbling and capturing.
