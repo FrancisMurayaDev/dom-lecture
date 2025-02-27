@@ -22,4 +22,4 @@ btn.addEventListener("click", function () {
 
 
 
-## Assignment: Read on Event Propagation
+## Assignment: (Read on Event Propagation)

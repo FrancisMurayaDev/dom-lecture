@@ -51,8 +51,9 @@ console.log(texts); // [p.text, p.text]
 ### document.querySelector(selector)
 
 selects the first element with a specific CSS selector.
- - You specify the selector the way you specify it in CSS.
- For example: the ID and Class.
+
+- You specify the selector the way you specify it in CSS.
+  For example: the ID and Class.
 
 ```js
 const firstText = document.querySelector(".text");
@@ -62,7 +63,8 @@ console.log(firstText);
 ### document.querySelectorAll(selector)
 
 Selects all elements in the document that match specified class, id or tag name and returns a node list of them.
-- It cannot be used with an ID since only one ID should correspond to one element. 
+
+- It cannot be used with an ID since only one ID should correspond to one element.
 
 ```js
 <p class="text">Hello, World</p>
@@ -82,12 +84,11 @@ title.id = "awesome-title";
 console.log(title); // <h1 class="title" id="awesome-title">Hello, world</h1>
 ```
 
-We can also select elements with a certain class. 
+We can also select elements with a certain class.
 For example:
 
-
 ```js
-document.querySelectorAll('p.text')
+document.querySelectorAll("p.text");
 //This will select all paragraphs with the class of Text
 ```
 

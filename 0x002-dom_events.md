@@ -2,7 +2,7 @@
 
 Event in DOM is action or occurrence in browser, the browser can respond to.
 
-Events are a result of user interactions such as clicks, key presses or mouse movements.
+Events are a result of user interactions such as clicks, key presses or mouse movements..
 
 ## Some Popular DOM Events.
 

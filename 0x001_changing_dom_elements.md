@@ -55,6 +55,8 @@ Sets or gets the text content of an element and its descendants without preservi
 
 - More consistent across browser compared to <i>innerText </i>
 
+### Value - used to get values inside an input element. On this later on a project.
+
 ## How to Update a HTML Element without Distorting it. 
 
 - We start by appending a child to a HTML element.
